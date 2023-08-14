@@ -4,17 +4,25 @@ import { technologies } from "../constants";
 import { useEffect, useState } from "react";
 
 const Tech = () => {
-  const initialBalls = 7; // Número inicial de bolas a renderizar
+  const initialBalls = 6; // Número inicial de bolas a renderizar
   const [showAllBalls, setShowAllBalls] = useState(false);
 
   // Manejar la interacción del usuario para cargar todas las bolas
   const handleLoadAllBalls = () => {
     setShowAllBalls(true);
   };
-  // Utilizar useEffect para forzar un nuevo renderizado cuando showAllBalls cambia
+
   useEffect(() => {
-    // No es necesario hacer nada aquí, solo utilizamos useEffect para forzar un renderizado
-  }, [showAllBalls]);
+    // Puedes ajustar este tiempo de carga según tus necesidades
+    const loadAllTimeout = setTimeout(() => {
+      setShowAllBalls(true);
+    }, 4000); // Esperar 2 segundos antes de cargar todas las bolas
+
+    return () => {
+      // Limpiar el timeout si el componente se desmonta antes de cargar todas las bolas
+      clearTimeout(loadAllTimeout);
+    };
+  }, []);
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology, index) => (
@@ -25,7 +33,7 @@ const Tech = () => {
           ) : null}
         </div>
       ))}
-      {!showAllBalls && (
+      {/*  {!showAllBalls && (
         // Mostrar un botón para cargar todas las bolas cuando no se han cargado todas
         <div className="flex justify-center mt-4">
           <button
@@ -35,7 +43,7 @@ const Tech = () => {
             Cargar todas las Tecnologías
           </button>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
