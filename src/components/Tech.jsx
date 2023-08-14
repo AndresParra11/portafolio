@@ -40,7 +40,7 @@ const Tech = () => {
         <div className="flex justify-center mt-4">
           <a
             href="https://drive.google.com/file/d/1tsXm5udEqkxos-MDrhWjBwKAXEA9V6hY/view?usp=drive_link"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-center"
           >
             Ver todas las Tecnologías en la hoja de vida!
           </a>
