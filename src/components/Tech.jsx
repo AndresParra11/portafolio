@@ -1,16 +1,20 @@
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Tech = () => {
-  const initialBalls = 5; // Número inicial de bolas a renderizar
+  const initialBalls = 6; // Número inicial de bolas a renderizar
   const [showAllBalls, setShowAllBalls] = useState(false);
 
   // Manejar la interacción del usuario para cargar todas las bolas
   const handleLoadAllBalls = () => {
     setShowAllBalls(true);
   };
+  // Utilizar useEffect para forzar un nuevo renderizado cuando showAllBalls cambia
+  useEffect(() => {
+    // No es necesario hacer nada aquí, solo utilizamos useEffect para forzar un renderizado
+  }, [showAllBalls]);
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology, index) => (
