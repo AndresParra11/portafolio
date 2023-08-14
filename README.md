@@ -8,7 +8,7 @@ Un poco acerca de mi trayección como programador Frontend, experiencia laboral,
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JavaScript, React.JS, TailwindCSS, Git Flow, Vercel
+**Client:** HTML, CSS, JavaScript, React.JS, Vite, TailwindCSS, Git Flow, Vercel
 
 
 ## Authors
