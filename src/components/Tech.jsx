@@ -1,7 +1,7 @@
+import React, { useEffect, useState } from "react";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import { useEffect, useState } from "react";
 
 const Tech = () => {
   const initialBalls = 6; // Número inicial de bolas a renderizar
@@ -23,16 +23,18 @@ const Tech = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      {technologies.map((technology, index) => (
-        <div className="w-28 h-28" key={technology.name}>
-          {/* Renderizar todas las tecnologías si no es móvil o mostrar las primeras 6 si es móvil */}
-          {!isMobile || index < initialBalls ? (
-            <BallCanvas icon={technology.icon} />
-          ) : null}
-        </div>
-      ))}
+      {technologies.map(
+        (technology, index) =>
+          // Renderizar un div solo si no es móvil o si es la primera tecnología o está dentro de las primeras initialBalls tecnologías
+          (!isMobile || index === 0 || index < initialBalls) && (
+            <div className="w-28 h-28" key={technology.name}>
+              <BallCanvas icon={technology.icon} />
+            </div>
+          )
+      )}
       {isMobile && (
         // Mostrar un mensaje con un enlace para ver todas las tecnologías solo en la vista móvil
         <div className="flex justify-center mt-4">

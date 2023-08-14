@@ -1,8 +1,27 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false); // Estado para detectar si es móvil
+
+  useEffect(() => {
+    // Verificar si la vista actual es móvil
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+
+    // Establecer el observador para detectar cambios en la vista móvil
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Limpiar el observador cuando el componente se desmonte
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
   return (
     <section className="relative w-full h-screen ">
       <div
@@ -23,7 +42,11 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center">
+      <div
+        className={`absolute ${
+          isMobile ? "xs:bottom-10 bottom-40" : "xs:bottom-10 bottom-15"
+        } w-full flex justify-center items-center`}
+      >
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
