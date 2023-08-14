@@ -4,7 +4,7 @@ import { technologies } from "../constants";
 import { useEffect, useState } from "react";
 
 const Tech = () => {
-  const initialBalls = 6; // Número inicial de bolas a renderizar
+  const initialBalls = 8; // Número inicial de bolas a renderizar
   const [showAllBalls, setShowAllBalls] = useState(false);
 
   // Manejar la interacción del usuario para cargar todas las bolas
