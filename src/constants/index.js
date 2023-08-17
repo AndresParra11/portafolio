@@ -107,7 +107,7 @@ const experiences = [
       "Edición de contenido de la página web por el administrador mediante sanity.",
       "Desarrollo de la funcionalidad de pago con Epayco.",
       "Implementación de diseño responsivo y compatibilidad entre navegadores.",
-      "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones consturctivas a otros desarrolladores.",
+      "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones constructivas a otros desarrolladores.",
     ],
   },
 ];
@@ -133,7 +133,7 @@ const testimonials = [
     testimonial:
       "En los diferentes desarrollos en los que estuvo bajo mi supervisión, Andrés gran capacidad de aprendizaje autónomo, trabajo colaborativo y excelente gestión del tiempo. ¡Un gran profesional",
     name: "Whitney Stevenson",
-    designation: "CTO",
+    designation: "Desarrollador Frontend",
     company: "Makaia",
     image: whitney,
   },
