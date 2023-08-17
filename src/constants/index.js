@@ -131,7 +131,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "En los diferentes desarrollos en los que estuvo bajo mi supervisión, Andrés gran capacidad de aprendizaje autónomo, trabajo colaborativo y excelente gestión del tiempo. ¡Un gran profesional",
+      "Andrés se destacó por su dominio de conceptos de desarrollo web, destreza en la creación de páginas web responsivas y estilizadas, resolución creativa de problemas y comunicación efectiva en equipos. Su enfoque en la experiencia del usuario y apoyo a sus compañeros lo distinguen como un activo valioso.",
     name: "Whitney Stevenson",
     designation: "Desarrollador Frontend",
     company: "Makaia",
@@ -141,7 +141,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MarketPlace CorpoAyapel",
+    name: "E-commerce CorpoAyapel",
     description:
       "Este es el aplicativo web e-commerce de Artesanías CorpoAyapel, el cual presenta una página para la venta de productos realizados por los artesanos, permitiendo realizar un logueo con correo electrónico o cuenta de google y realizar las compras virtuales mediante Epayco.",
     tags: [
