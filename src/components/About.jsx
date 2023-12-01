@@ -46,11 +46,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Soy un desarrollador FrontEnd con experiencia en React, Redux,
-        JavaScript, SASS, Git flow, Firebase. Tengo gran capacidad de adaptación
-        y puedo colaborar asertivamente con los clientes para crear soluciones
-        eficientes, escalables y fáciles de usar. ¡Trabajemos juntos para hacer
-        realidad tus ideas!
+        Soy un desarrollador FrontEnd con experiencia destacada en React, Redux,
+        JavaScript, SASS y Git flow. Además, cuento con experiencia en el manejo
+        de Firebase. Mi capacidad de adaptación es notable, y poseo habilidades
+        para colaborar de manera asertiva con los clientes con el objetivo de
+        crear soluciones eficientes, escalables y de fácil uso. Mi enfoque en el
+        desarrollo incluye la implementación de operaciones CRUD y he trabajado
+        en la integración y consumo de API REST, permitiendo una comunicación
+        fluida y eficaz entre diferentes componentes del sistema.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

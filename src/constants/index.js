@@ -1,5 +1,4 @@
 import {
-  backend,
   web,
   javascript,
   firebase,
@@ -19,6 +18,8 @@ import {
   whitney,
   sass,
   java,
+  aristaDev,
+  redeamerica,
 } from "../assets";
 
 export const navLinks = [
@@ -40,10 +41,6 @@ const services = [
   {
     title: "Desarrollador Frontend",
     icon: web,
-  },
-  {
-    title: "Desarrollador Backend",
-    icon: backend,
   },
 ];
 
@@ -110,6 +107,20 @@ const experiences = [
       "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones constructivas a otros desarrolladores.",
     ],
   },
+  {
+    title: "Desarrollador React.js",
+    company_name: "Arist Dev SAS",
+    icon: aristaDev,
+    iconBg: "#383E56",
+    date: "Agosto 2023 - Noviembre 2023",
+    points: [
+      "Desarrollo de una plataforma web especializada en la gestión y agendamiento de servicios para adultos.",
+      "Desarrollo de la funcionalidad de autenticación de usuarios mediante correo electrónico con firebase.",
+      "Implementación de diseño responsivo y compatibilidad entre navegadores.",
+      "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones constructivas a otros desarrolladores.",
+      "Implementación de API REST para la comunicación con el servidor.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -140,6 +151,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "RedEAmérica",
+    description:
+      "Este aplicativo funciona como una herramienta que sistematice experiencias educativas, facilitando su circulación e intercambio de conocimiento.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "white-text-gradient",
+      },
+      {
+        name: "gitflow",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: redeamerica,
+    source_code_link: "https://github.com/AndresParra11/RedEAmerica",
+  },
   {
     name: "E-commerce CorpoAyapel",
     description:

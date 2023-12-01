@@ -80,11 +80,11 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Los siguientes proyectos muestran mis habilidades y experiencia a
-          través de ejemplos reales de mi trabajo. Cada proyecto se describe
-          brevemente con enlaces a repositorios de código y demostraciones en
-          línea. Esto demuestra mi capacidad para abordar desafíos complejos,
-          trabajar con diversas tecnologías y gestionar proyectos de manera
-          eficiente.
+          través de ejemplos reales y proyectos como Freelance. Cada proyecto se
+          describe brevemente con enlaces a repositorios de código y
+          demostraciones en línea. Esto demuestra mi capacidad para abordar
+          desafíos complejos, trabajar con diversas tecnologías y gestionar
+          proyectos de manera eficiente y de forma colaborativa.
         </motion.p>
       </div>
 

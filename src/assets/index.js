@@ -26,6 +26,8 @@ import java from "./tech/java.png";
 import corpoayapelWeb from "./corpoayapelWeb.jpg";
 import spaceToruism from "./space-tourism.jpg";
 import oceanic from "./oceanic.jpg";
+import aristaDev from "./company/Arista Dev.webp";
+import redeamerica from "./company/redeamerica.jpg";
 
 import ana from "./ana.jpg";
 import diego from "./diego.jpg";
@@ -65,4 +67,6 @@ export {
   ana,
   diego,
   whitney,
+  aristaDev,
+  redeamerica,
 };
