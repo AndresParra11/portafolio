@@ -44,16 +44,21 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px] text-justify"
       >
-        Soy un desarrollador FrontEnd con experiencia destacada en React, Redux,
-        JavaScript, SASS y Git flow. Además, cuento con experiencia en el manejo
-        de Firebase. Mi capacidad de adaptación es notable, y poseo habilidades
-        para colaborar de manera asertiva con los clientes con el objetivo de
-        crear soluciones eficientes, escalables y de fácil uso. Mi enfoque en el
-        desarrollo incluye la implementación de operaciones CRUD y he trabajado
-        en la integración y consumo de API REST, permitiendo una comunicación
-        fluida y eficaz entre diferentes componentes del sistema.
+        Soy un desarrollador Frontend con un año de experiencia sobresaliente en
+        tecnologías clave. Mis habilidades sólidas en JavaScript (ECMAScript) y
+        ReactJS, junto con el dominio en componentes funcionales, Hooks,
+        Patrones, Redux y Router, me permiten crear interfaces dinámicas y
+        atractivas. He trabajado con servicios Restful, implementando sistemas
+        de diseño y utilizando herramientas como Firebase, SASS y Bootstrap.
+        Además, tengo experiencia en versionado con Git y Github, facilitando un
+        flujo de trabajo colaborativo y eficiente. Actualmente, estoy ampliando
+        mis conocimientos en NodeJS, ExpressJS, NextJS y MongoDB. Destaco por mi
+        capacidad de adaptación y colaboración, ofreciendo soluciones escalables
+        y fáciles de usar. Me especializo en operaciones CRUD, integración y
+        consumo de API REST para una comunicación fluida entre componentes del
+        sistema.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

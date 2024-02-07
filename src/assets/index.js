@@ -27,13 +27,13 @@ import corpoayapelWeb from "./corpoayapelWeb.jpg";
 import spaceToruism from "./space-tourism.jpg";
 import oceanic from "./oceanic.jpg";
 import aristaDev from "./company/Arista Dev.webp";
-import redeamerica from "./company/redeamerica.jpg";
 
 import ana from "./ana.jpg";
 import diego from "./diego.jpg";
 import whitney from "./whitney.jpg";
 
 import corpoayapel from "./company/corpoayapel.jpg";
+import loopstudios from "./loopstudios.jpg";
 
 export {
   logo,
@@ -68,5 +68,5 @@ export {
   diego,
   whitney,
   aristaDev,
-  redeamerica,
+  loopstudios,
 };

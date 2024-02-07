@@ -12,14 +12,13 @@ import {
   corpoayapel,
   corpoayapelWeb,
   spaceToruism,
-  oceanic,
+  loopstudios,
   ana,
   diego,
   whitney,
   sass,
   java,
   aristaDev,
-  redeamerica,
 } from "../assets";
 
 export const navLinks = [
@@ -94,31 +93,32 @@ const technologies = [
 const experiences = [
   {
     title: "Desarrollador React.js",
-    company_name: "CorpoAyapel",
-    icon: corpoayapel,
+    company_name: "Arist Dev SAS",
+    icon: aristaDev,
     iconBg: "#383E56",
-    date: "Mayo 2023 - Junio 2023",
+    date: "Enero 2024 - Julio 2023",
     points: [
-      "Desarrollo de una aplicación web para la venta de productos realizados por la compañía.",
-      "Desarrollo de la funcionalidad de autenticación de usuarios con correo electrónico y cuenta de Google.",
-      "Edición de contenido de la página web por el administrador mediante sanity.",
-      "Desarrollo de la funcionalidad de pago con Epayco.",
-      "Implementación de diseño responsivo y compatibilidad entre navegadores.",
+      "Desarrollé una plataforma web especializada en la gestión y agendamiento de servicios para adultos, usando Vite (ES6) y React.js",
+      "Implementé Firebase para la funcionalidad de autenticación, registro e inicio de sesión de la plataforma web.",
+      "Traduje los wireframes y mockups de UX del equipo de diseño en funciones interactivas y responsivas usando HTML/CSS, SASS y ReactJS.",
+      "Implementé servicios web (REST) para los diferentes CRUDs.",
       "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones constructivas a otros desarrolladores.",
+      "Adopté la metodología ágil SCRUM para gestionar el desarrollo de proyectos de manera eficiente.",
     ],
   },
   {
     title: "Desarrollador React.js",
-    company_name: "Arist Dev SAS",
-    icon: aristaDev,
+    company_name: "CorpoAyapel",
+    icon: corpoayapel,
     iconBg: "#383E56",
-    date: "Agosto 2023 - Noviembre 2023",
+    date: "Junio 2023 - Mayo 2023",
     points: [
-      "Desarrollo de una plataforma web especializada en la gestión y agendamiento de servicios para adultos.",
-      "Desarrollo de la funcionalidad de autenticación de usuarios mediante correo electrónico con firebase.",
-      "Implementación de diseño responsivo y compatibilidad entre navegadores.",
+      "Desarrollé una aplicación web para la venta de productos realizados por la compañía.",
+      "Implementé Firebase para la funcionalidad de autenticación, registro e inicio de sesión de la plataforma web.",
+      "Desarrollé la funcionalidad de pagos en línea con Epayco.",
+      "Implementé el diseño responsivo, asegurando la compatibilidad entre navegadores y diversos tamaños de dispositivos.",
       "Trabajo mediante la estrategía de Git Flow, revisión de código y correcciones constructivas a otros desarrolladores.",
-      "Implementación de API REST para la comunicación con el servidor.",
+      "Adopté la metodología ágil SCRUM para gestionar el desarrollo de proyectos de manera eficiente.",
     ],
   },
 ];
@@ -152,36 +152,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "RedEAmérica",
-    description:
-      "Este aplicativo funciona como una herramienta que sistematice experiencias educativas, facilitando su circulación e intercambio de conocimiento.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sass",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "white-text-gradient",
-      },
-      {
-        name: "gitflow",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: redeamerica,
-    source_code_link: "https://github.com/AndresParra11/RedEAmerica",
-  },
-  {
-    name: "E-commerce CorpoAyapel",
+    name: "CorpoAyapel",
     description:
       "Este es el aplicativo web e-commerce de Artesanías CorpoAyapel, el cual presenta una página para la venta de productos realizados por los artesanos, permitiendo realizar un logueo con correo electrónico o cuenta de google y realizar las compras virtuales mediante Epayco.",
     tags: [
@@ -213,7 +184,7 @@ const projects = [
   {
     name: "Space-Tourism",
     description:
-      "Se realiza un aplicativo en React.js de una landing-page, siguiendo el diseño especificado en Figma. Este aplicativo permite visualizar los diferentes planetas del sistema solar, con sus características y la posibilidad de reservar un viaje a cada uno de ellos.",
+      "Este aplicativo permite visualizar los diferentes planetas del sistema solar, con sus características y la posibilidad de reservar un viaje a cada uno de ellos. Se realizó un aplicativo en React.js de una landing-page, siguiendo el diseño especificado en Figma. ",
     tags: [
       {
         name: "reactjs",
@@ -236,9 +207,9 @@ const projects = [
     source_code_link: "https://github.com/AndresParra11/space-tourism",
   },
   {
-    name: "Oceanic",
+    name: "Loopstudios",
     description:
-      "Se realizó un aplicativo web que simula la compra de unos tiquetes de avión. Se realizó un diseño responsivo y libre según los desarrolladores.",
+      "Se realizó una landing page teniendo en cuenta los requerimientos establecidos en un figma. Se utilizan diferentes tecnologías para aplicar el estilo, la estructura y las funcionalidades necesarias. También se realiza el diseño responsivo de la aplicación.",
     tags: [
       {
         name: "reactjs",
@@ -249,15 +220,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "materiaL-ui",
-        color: "pink-text-gradient",
-      },
-      {
         name: "sweetalert2",
         color: "white-text-gradient",
       },
     ],
-    image: oceanic,
+    image: loopstudios,
     source_code_link: "https://valentinasj.github.io/Oceanic/",
   },
 ];
